@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="30dp"
+    android:orientation="vertical"
+    tools:context=".FreteActivity">
+
+    <TextView
+        android:id="@+id/lblFrete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculo do Frete"
+        android:gravity="center_horizontal"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Informe o CEP"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="25dp" />
+
+        <EditText
+            android:id="@+id/txtCep"
+            android:layout_width="145dp"
+            android:layout_height="41dp"
+            android:ems="10"
+            android:text=""
+            tools:layout_editor_absoluteX="191dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCep"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:text="Calcular Frete"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <TextView
+        android:id="@+id/txtLogradouro"
+        android:layout_width="291dp"
+        android:layout_height="32dp"
+        android:text="endereco"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <TextView
+        android:id="@+id/txtBairro"
+        android:layout_width="117dp"
+        android:layout_height="30dp"
+        android:text="bairro"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <TextView
+        android:id="@+id/txtCidade"
+        android:layout_width="165dp"
+        android:layout_height="30dp"
+        android:text="cidade"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <TextView
+        android:id="@+id/txtUf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <TextView
+        android:id="@+id/txtComplemento"
+        android:layout_width="162dp"
+        android:layout_height="26dp"
+        android:text="complemento"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="134dp"
+            android:layout_height="37dp"
+            android:text="Valor Frete"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="300dp" />
+
+        <TextView
+            android:id="@+id/txtFrete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="182dp"
+            tools:layout_editor_absoluteY="300dp"
+            tools:text="R$" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnAdicionar"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:text="adicionar produto"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <Button
+        android:id="@+id/btnPgto"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:text="Efetuar Pagamento"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+</LinearLayout>

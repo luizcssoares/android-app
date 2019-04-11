@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".CadastroActivity">
+
+    <TextView
+        android:id="@+id/lblTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dados cadastrais"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/lblCpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cpf"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <EditText
+        android:id="@+id/txtCpf"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Informe o Cpf"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <TextView
+        android:id="@+id/lblNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <EditText
+        android:id="@+id/txtNome"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Informe  o Nome"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <TextView
+        android:id="@+id/lblSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informe a Senha"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <EditText
+        android:id="@+id/txtSenha"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Informe  a Senha"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <TextView
+        android:id="@+id/lblRedigite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Redigite"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <EditText
+        android:id="@+id/txtRedigite"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Redigite a Senha"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <Button
+        android:id="@+id/btnGravar"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:text="Gravar"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+</LinearLayout>

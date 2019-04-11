@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".PagamentoActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Pagamento"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/idcpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dados do Cliente"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <TextView
+        android:id="@+id/txtCpf"
+        android:layout_width="94dp"
+        android:layout_height="20dp"
+        android:text="Cpf"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="161dp"
+        android:layout_height="20dp"
+        android:text="Nome"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Endereco Entrega"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <TextView
+        android:id="@+id/txtLogradouro"
+        android:layout_width="219dp"
+        android:layout_height="20dp"
+        android:text="Logradouro"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <TextView
+        android:id="@+id/txtNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numero"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <TextView
+        android:id="@+id/txtBairro"
+        android:layout_width="94dp"
+        android:layout_height="21dp"
+        android:text="Bairro"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <TextView
+        android:id="@+id/txtCidade"
+        android:layout_width="108dp"
+        android:layout_height="20dp"
+        android:text="Cidade"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <TextView
+        android:id="@+id/txtUf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uf"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor Compras"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor Frete"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor Pedido"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <TextView
+        android:id="@+id/txtCompra"
+        android:layout_width="101dp"
+        android:layout_height="20dp"
+        android:text="0.00"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <TextView
+        android:id="@+id/txtFrete"
+        android:layout_width="102dp"
+        android:layout_height="20dp"
+        android:text="0.00"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <TextView
+        android:id="@+id/txtPedido"
+        android:layout_width="104dp"
+        android:layout_height="20dp"
+        android:text="0.00"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecione o Pagamento"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="353dp" />
+
+    <RadioButton
+        android:id="@+id/opBoleto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boleto"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <RadioButton
+        android:id="@+id/opCartao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cartao Credito"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <RadioButton
+        android:id="@+id/opPayPal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay Pal"
+        tools:layout_editor_absoluteX="268dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <Button
+        android:id="@+id/btnGravar"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:text="Gravar Pedido"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+</LinearLayout>
